@@ -238,7 +238,7 @@ def main():
     dt = datetime.now() - t0
     op = sum(len(r[5]) for r in results)
     print(paint(f'  ✔ За {dt.total_seconds():.1f}с | хостов: {len(results)} | открытых портов: {op}', C.GREEN, C.BOLD))
-    print(paint('  Сканируй только свои сети. Удачи, Макс!', C.DIM))
+    print(paint('  Сканируй только свои сети. Удачи,', C.DIM))
 
 if __name__ == '__main__':
     try:
