@@ -39,8 +39,8 @@
 ### Termux (Android)
 ```bash
 pkg update && pkg install python iproute2
-git clone https://github.com/TBF-of/netscanner.git
-cd netscanner
+git clone https://github.com/TBF-of/TBF-NETSCAN.git
+cd netscanner.py
 python netscanner.py
 ```
 
