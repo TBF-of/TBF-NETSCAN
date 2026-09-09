@@ -40,7 +40,7 @@
 ```bash
 pkg update && pkg install python iproute2
 git clone https://github.com/TBF-of/TBF-NETSCAN.git
-cd netscanner.py
+cd TBF-NETSCAN
 python netscanner.py
 ```
 
